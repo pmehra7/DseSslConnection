@@ -21,6 +21,7 @@ Open up the the config.conf file and modify the values for the respective config
 |`password`|DSE password|
 
 To run, execute the following command from the parent directory: 
+
 `java -cp target/dse-ssl-1.0-SNAPSHOT-jar-with-dependencies.jar  com.dseExamples.ssl.ClusterConnect`
 
 The output should be something similar to this: 
