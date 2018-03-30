@@ -35,5 +35,3 @@ The output should be something similar to this:
 If auth is not enabled on your cluster, navigate to the ClusterConnection class and remove `.withCredentials(username, password)` from the ClusterBuilder as well as the variables **username** and **password**
 
 The **cipherSuites** variable contains the string values for the cipher_suite property in **cassandra.yaml** and **dse.yaml**. This example only includes the 256-bit encryption ciphers. 
-
-The **clusterIp** config key can be modified with multiple ip address values. Here is an example: `clusterIp = 127.0.0.1`
