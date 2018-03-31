@@ -42,7 +42,7 @@
                 <version>3.2.1</version>
                 <configuration>
                     <mainClass>ClusterConnect</mainClass>
-                    <scalaCompatVersion>2.11</scalaCompatVersion>
+                    <scalaCompatVersion>${scala.version}</scalaCompatVersion>
                 </configuration>
                 <executions>
                     <execution>
